@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SH Interior</title>
+    <!-- 폰트어섬 -->
+    <!-- 태블릿 사이즈 : PC화면에서 보고-->
+    <!-- 모바일 사이즈 : 360px : 폰사이즈가 다른 사람 css 사이즈 확인-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/astyle.css">
+    <link rel="stylesheet" href="css/mstyle.css" media="only screen and (max-width:600px)">
+    <link rel="stylesheet" href="css/ipadstyle.css" media="only screen and (min-width:600px) and (max-width:1025px)">
+    <link rel="stylesheet" href="css/dstyle.css" media="only screen and (min-width:1025px)">
+    <link href="https://fonts.googleapis.com/css?family=Lato:700&display=swap" rel="stylesheet">
+<body>
+    <div class="wrapper"> <!-- 전체 영역 -->
+
+        <header>
+            <div id="logo">
+                <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+            </div>
+            <div class="bar_icon" >
+                <a href="#" onclick="toggleCateBtn();"><i id="cateIcon" class="fas fa-bars"></i></a>
+            </div>
+        </header>
+        
+        <div class="cate_lnb"> <!-- 풀 하위 메뉴 -->
+            <ul class="cate_lnb_menu" id="lnb">
+                <li><a href="#" class="m">ABOUT US</a>
+                    <ul class="cate_lnb_sub">
+                        <li><a href="aboutus.html">INTRODUCTION</a></li>
+                        <li><a href="aboutus/mission.html">MISSION</a></li>
+                        <li><a href="aboutus/vision.html">VISION</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="m">PROJECTS</a>
+                    <ul class="cate_lnb_sub">
+                        <li><a href="projects.html">상업복합시설</a></li>
+                        <li><a href="projects/hotelresort.html">호텔리조트숙박시설</a></li>
+                        <li><a href="projects/housing.html">주거시설</a></li>
+                        <li><a href="projects/office.html">업무시설</a></li>
+                        <li><a href="projects/culture.html">문화종교시설</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="m">CAREER</a>
+                    <ul class="cate_lnb_sub">
+                        <li><a href="career.html">RECRUIT</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="m">CONTACT US</a>
+                    <ul class="cate_lnb_sub">
+                        <li><a href="contactus.html">LOACATION</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="main">
+
+            <div class="wrapper_slide">
+                <div class="slideshow">
+                    <div class="myslide fade">
+                        <img src="images/slide1.jpeg" alt="slide1" >
+                    </div>
+                    <div class="myslide fade">
+                        <img src="images/slide2.jpeg" alt="slide2" >
+                    </div>
+                    <div class="myslide fade">
+                        <img src="images/slide3.jpeg" alt="slide3" >
+                    </div>
+                <a href="#" class="prev" onclick="plusslide(-1);"><img src="images/prev.png" alt=""></a>
+                <a href="#" class="next" onclick="plusslide(1);"><img src="images/next.png" alt=""></a>
+        
+                    <div class="dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="represent">
+            
+                <h2>PROJECTS</h2>
+                <br>
+                <br>
+                <br>
+                <p><span>SH인테리어</span>의 프로젝트들을 만나보세요</p>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div id="slider" class="slider">
+        
+                    <div class="wrapper">
+        
+                        <div class="slides" id="slides">
+                            <span class="slide"><a class="imgover" href="projects.html"><img src="images/project_slide1.jpg" alt="대표상품1"></a></span>
+                            <span class="slide"><a class="imgover" href="projects/hotelresort.html"><img src="images/project_slide2.jpg" alt="대표상품1"></a></span>
+                            <span class="slide"><a class="imgover" href="projects/housing.html"><img src="images/project_slide3.jpg" alt="대표상품1"></a></span>
+                            <span class="slide"><a class="imgover" href="projects/office.html"><img src="images/project_slide4.jpg" alt="대표상품1"></a></span>
+                            <span class="slide"><a class="imgover" href="projects/culture.html"><img src="images/project_slide5.jpg" alt="대표상품1"></a></span>
+                        </div>
+                    </div>
+                    <a id="re_prev" class="control re_prev"></a>
+                    <a id="re_next" class="control re_next"></a>
+                </div>
+            </div>
+
+        <div class="footer_space"></div>
+
+        <footer>
+
+                <div class="footer">
+                    <div class="footer_left">
+                        <img src="images/logobtm.png" alt="f_logo" width="100">
+                    </div>
+        
+                    <div class="footer_center">
+                        <h5>회사소개 &nbsp;&nbsp;이용안내 &nbsp;&nbsp;개인정보처리방침</h5>
+                        <p>상호 : SH Interior&nbsp;&nbsp; 대표 : 정성훈</p>
+                        <p>개인정보보호책임자 : 정성훈</p>
+                        <p>Copyright by SH Interior. all rights reserved. designed &managed by WISA</p>
+                    </div>
+        
+                
+                    <div class="footer_right">
+                        <br>
+                        <br>
+                        <img src="images/instagram.png" alt="">&nbsp;
+                        <img src="images/facebook.png" alt="">&nbsp;
+                        <img src="images/twitter.png" alt="">
+               
+                    </div>
+                </div>
+             
+        
+
+        </footer>
+
+    </div> <!-- wrapper -->
+
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/menutoggle.js"></script>
+    
+    <script src="js/jscript.js"></script>
+</body>
+</html>
