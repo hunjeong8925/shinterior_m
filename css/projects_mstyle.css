@@ -1,0 +1,220 @@
+
+    body {
+        margin: 0;
+        background-color: #efefef;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .wrapper {
+        margin: 0 auto;
+    }
+    
+    header {
+        width: 100%; /* ipad css 가로 사이즈 */
+        background-color:#ffffff;
+        height: 60px;
+    }
+    .bar_icon {
+        width: 50px;
+        height: 60px;
+        float: right;
+        /* background-color: pink; */
+        text-align: center;
+        line-height: 80px;
+        margin-top: -10px;
+        padding-right: 10px;
+    }
+    .bar_icon a {
+        font-size: 170%;
+        color:#555555;
+    }
+    #logo {
+        width: 200px;
+        height: 60px;
+        /* background-color: lightseagreen; */
+        float: left;
+        margin: 0 auto;
+        text-align: left;
+        padding-left: 25px;
+    }
+    #logo img {
+        height: 60px;
+    }
+    
+.wrapper_project {
+    width: 100%;
+    margin: 0 auto;
+    overflow: auto;
+    position: relative;
+    text-align: center;
+    background-color: #fdfdfd;
+}
+.wrapper_project h2 {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: -150px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.project_gnb {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.project_menu {
+    width: 80%;
+    list-style-type: none;
+    margin: 0 auto;
+    text-align: center;
+    display: table;
+}
+.project_menu li {
+    width: 100%;
+    text-align: center;
+    display: block;
+    background-color: white;
+    line-height: 30px;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: lighter;
+    color: black;
+    margin: 0 auto;
+    text-align: center;
+}
+.project_menu li:hover {
+    background-color: #333333;
+}
+.project_menu li a {
+    height: 100%;
+    line-height: 40px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: lighter;
+    color: black;
+    margin: 0 auto;
+    text-align: center;
+}
+.project_menu li a span {
+    font-weight: bold;
+}
+.project_menu>li a:hover {
+    font-weight: bold;
+}
+.project_menu>li.bold {
+    background-color: #333333;
+}
+.project_menu>li a.bold {
+    color: white;
+    font-weight: bold;
+}
+
+.wrapper_project_item {
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+    display: table;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.project_item {
+    box-sizing: border-box;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    float: left;
+    margin-bottom: 15px;
+    vertical-align: middle;
+    background-color: black;
+}
+.project_item>figure {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+.project_item>figure img{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+.project_item>figure figcaption {
+    text-align: center;
+    font-weight: normal;
+    font-size: 16px;
+    position: absolute;
+    margin-top: -60px;
+    text-align: right;
+    width: 100%;
+    color: white;
+    margin-right: -5px;
+    margin-left: -5px;
+
+}
+
+.project_imgover:hover { opacity: 0.7;}
+.project_item>figure figcaption:hover {
+    /* -ms-transform-origin-y: 50px; */
+    transform: translateY(-50px);
+    z-index: 99;
+}
+
+.more {
+    text-align: center;
+}
+.more a img {
+    width: 35%;
+}
+/* 하단 메뉴 */
+.footer {
+    width: 100%;
+    clear: both;
+    bottom: 0;
+    background-color: #333333;
+}
+.footer {
+    width: 100%;
+    margin: 0 auto;
+    height: 400px;
+}
+.footer_left {
+    width: 100%;
+    float: center;
+    margin: 0 auto;
+    text-align: center;
+    height: 150px;
+}
+.footer_left img {
+    text-align: center;
+    margin: 0 auto;
+    float: center;
+    margin-top: 50px;
+}
+.footer_center {
+    width: 100%;
+    float: right;
+    text-align: center;
+    margin-top: 50px;
+}
+.footer_center h5 {
+    color: white;
+    font-size: 50%;
+    margin-bottom: 15px;
+}
+.footer_center p {
+    color: white;
+    font-size: 25%;
+}
+
+.footer_right {
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    clear: both;
+
+}
+.footer_right img {
+    width: 35px;
+    height: 35px;
+}

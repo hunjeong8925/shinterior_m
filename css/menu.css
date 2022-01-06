@@ -1,0 +1,135 @@
+
+@media only screen and (min-width: 1020px) {
+    .cate_lnb_menu{
+        position: absolute;
+        z-index: 999;
+        width: 30%;
+        right: 0;
+        background-color: white;
+        opacity: 0.8;
+    }
+    
+    .cate_lnb_menu a {
+        padding-left: 30px;
+        height: 45px;
+        line-height: 45px;
+        display: block;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    .cate_lnb_menu a:hover {
+        background-color: #333333;
+        color: white;
+    }
+    .cate_lnb_menu a.on {
+        background-color: #333333;
+        color: white;
+        opacity: 1.0;
+    }
+    .cate_lnb_menu li ul {
+        display: none;
+    }
+    .cate_lnb_menu li ul.on {
+        display: block;
+    }
+    .cate_lnb_menu ul a {
+        padding-left: 50px;
+        font-size: 1.0rem;
+        background-color: #efefef;
+    }
+    
+    .main {
+        position: relative;
+    }
+}
+
+
+
+@media only screen and (min-width: 600px) and (max-width:1020px) {
+.cate_lnb_menu{
+    position: absolute;
+    z-index: 999;
+    width: 50%;
+    right: 0;
+    background-color: white;
+    opacity: 0.8;
+}
+
+.cate_lnb_menu a {
+    padding-left: 30px;
+    height: 45px;
+    line-height: 45px;
+    display: block;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.cate_lnb_menu a:hover {
+    background-color: #333333;
+    color: white;
+}
+.cate_lnb_menu a.on {
+    background-color: #333333;
+    color: white;
+    opacity: 1.0;
+}
+.cate_lnb_menu li ul {
+    display: none;
+}
+.cate_lnb_menu li ul.on {
+    display: block;
+}
+.cate_lnb_menu ul a {
+    padding-left: 50px;
+    font-size: 0.8rem;
+    background-color: #efefef;
+}
+
+.main {
+    position: relative;
+}
+
+}
+
+@media only screen and (max-width: 600px) {
+    .cate_lnb_menu{
+        position: absolute;
+        z-index: 999;
+        width: 50%;
+        right: 0;
+        background-color: white;
+        opacity: 0.8;
+    }
+    
+    .cate_lnb_menu a {
+        padding-left: 20px;
+        height: 40px;
+        line-height: 40px;
+        display: block;
+        font-weight: bold;
+        font-size: 0.9rem;
+    }
+    .cate_lnb_menu a:hover {
+        background-color: #333333;
+        color: white;
+    }
+    .cate_lnb_menu a.on {
+        background-color: #333333;
+        color: white;
+        opacity: 1.0;
+    }
+    .cate_lnb_menu li ul {
+        display: none;
+    }
+    .cate_lnb_menu li ul.on {
+        display: block;
+    }
+    .cate_lnb_menu ul a {
+        padding-left: 30px;
+        font-size: 0.7rem;
+        background-color: #efefef;
+    }
+    
+    .main {
+        position: relative;
+    }
+}

@@ -1,0 +1,95 @@
+.wrapper_aboutus_gnb {
+    width: 768px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.aboutus_gnb {
+    width: 100%;
+    margin: 0 auto;
+}
+.aboutus_menu {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0px;
+    text-align: center;
+    background-color: white;
+}
+.aboutus_menu li {
+    display: inline-block;
+    width: 256px;
+    height: 40px;
+    margin: 0 auto;
+}
+.aboutus_menu>li:hover {
+    background-color: #333333;
+}
+.aboutus_menu li a {
+    height: 100%;
+    line-height: 40px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: lighter;
+    color: black;
+    margin: 0 auto;
+}
+.aboutus_menu>li>a:hover {
+    color: white;
+}
+.wrapper_ceomessage {
+    width: 100%;
+    margin: 0 auto;
+}
+.ceomessage_word {
+    width: 100%;
+    height: 550px;
+    margin: 0 auto;
+    text-align: center;
+}
+.ceomessage_word h1 {
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 50px;
+}
+.ceomessage_word h2 {
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 50px;
+}
+.ceomessage_word p {
+    font-size: 14px;
+}
+.ceomessage_img {
+    width: 100%;
+    text-align: center;
+}
+.ceomessage_img img{
+    width: 768px;
+}
+.mission_img {
+    height: 720px;
+    text-align: center;
+}
+.mission_img img {
+    width: 768px;
+    text-align: center;
+}
+.mission_word {
+    width: 100%;
+    height: 550px;
+    margin: 0 auto;
+    text-align: center;
+}
+.mission_word h1 {
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 50px;
+}
+.mission_word h2 {
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 50px;
+}
+.mission_word p {
+    font-size: 14px;
+}

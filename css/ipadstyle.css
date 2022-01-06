@@ -1,0 +1,246 @@
+
+
+body {
+    margin: 0;
+    background-color: #efefef;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper {
+    margin: 0 auto;
+}
+
+header {
+    width: 768px; /* ipad css 가로 사이즈 */
+    background-color:#ffffff;
+    overflow: auto; /* float 사용시 부모영역 벗어날 수 있기에 */
+}
+.bar_icon {
+    width: 50px;
+    height: 80px;
+    float: right;
+    /* background-color: pink; */
+    text-align: center;
+    line-height: 80px;
+    padding-right: 50px;
+}
+.bar_icon a {
+    font-size: 200%;
+    color:#555555;
+}
+#logo {
+    width: 600px;
+    height: 80px;
+    /* background-color: lightseagreen; */
+    float: left;
+    margin: 0 auto;
+    text-align: left;
+    padding-left: 50px;
+}
+#logo img {
+    height: 80px;
+}
+
+/* main - slide 영역 */
+.slideshow {
+    width: 768px;
+    position: relative;
+}
+.myslide img {
+    width: 768px;
+}
+
+a.prev, a.next {
+    position: absolute;
+    top: 50%;
+    text-decoration: none;
+    margin-top: -55px;
+    border-radius: 0 3px 3px 0;
+    font-size: 80px;
+    color: white;
+}
+a.prev {
+    left: 20px;
+    border-radius: 3px 0 0 3px;
+}
+a.next {
+    right: 20px;
+    border-radius: 3px 0 0 3px;
+}
+a.prev img {
+    width: 80%;
+}
+a.next img {
+    width: 80%;
+}
+@keyframes fade {
+    from { opacity: .1}
+    to { opacity: 1}
+}
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+.dots {
+    position: absolute;
+    bottom: 30px;
+    text-align: center;
+    width: 200px;
+    margin: auto;
+    left: 0px;
+    right: 0px;
+}
+.dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    margin: 0px 5px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+span.dot.active {
+    background-color: #cccccc;
+}
+/* 메인 프로젝트 카테고리 */
+.represent {
+    width: 768px;
+    margin: 0 auto;
+    background-color: #efefef;
+    padding-top: 80px;
+    padding-bottom: 300px;
+    position: relative;
+}
+.represent h2, .represent p {
+    text-align: center;
+}
+.represent h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.represent p span {
+    color: #7a8a94;
+}
+.slider {
+    position: relative;
+    width: 768px;
+    margin: 0 auto;
+}
+.wrapper {
+    position: relative;
+    width: 768px;
+
+    overflow: hidden;
+}
+
+.slides {
+    position: relative;
+    left: -768px;
+    width: 10000px;
+    white-space: nowrap;  /*이미지사이에 있는 공백문자, 공백 처리*/
+    font-size: 0;   /*공백문자사이즈 0으로 처리*/
+    /* 다른방법*/
+    /* display: flex; */
+}
+
+.slides.shifting {
+    transition: left 0.2s ease-out;
+}
+
+.slide {
+    position: relative;
+    width: 768px;
+}
+.slide img {
+    width: 768px;
+    height: 480px;
+
+}
+
+.control {
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    opacity: 0.7;
+    margin-top: -20px;
+    border-radius: 5px;
+}
+.control:hover {
+    opacity: 100%;
+}
+
+.re_prev {
+    background-image: url(../images/project_prev.png);
+    left: -5px;
+}
+
+.re_next {
+    right: -5px;
+    background-image: url(../images/project_next.png);
+}
+
+.re_prev, .re_next {
+    background-size: 22px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.imgover img:hover {
+    background-color: #333333;
+    opacity: 0.5;
+}
+
+/* 하단 메뉴 */
+footer {
+    width: 768px;
+    clear: both;
+    bottom: 0;
+    background-color: #333333;
+}
+.footer {
+    width: 768px;
+    margin: 0 auto;
+    height: 400px;
+}
+.footer_left {
+    width: 768px;
+    float: center;
+    margin: 0 auto;
+    text-align: center;
+    height: 150px;
+}
+.footer_left img {
+    text-align: center;
+    margin: 0 auto;
+    float: center;
+    margin-top: 50px;
+}
+.footer_center {
+    width: 768px;
+    float: right;
+    text-align: center;
+    margin-top: 50px;
+}
+.footer_center h5 {
+    color: white;
+    font-size: 50%;
+    margin-bottom: 15px;
+}
+.footer_center p {
+    color: white;
+    font-size: 25%;
+}
+
+.footer_right {
+    width: 768px;
+    text-align: center;
+    bottom: 0;
+    clear: both;
+
+}
+.footer_right img {
+    width: 35px;
+    height: 35px;
+}
